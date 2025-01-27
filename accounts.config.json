@@ -1,0 +1,19 @@
+{
+   "cross_account_role": "IAMAnalyzerRole",
+   "analysis_period_days": 90,
+   "output_path": "/opt/iam-analyzer/output",
+   "s3_bucket": "iam-analyze-report",
+   "s3_prefix": "iam-analysis",
+   "accounts": [
+       {
+           "id": "049092260417",
+           "name": "Test_Account_1",
+           "environment": "prod"
+       },
+       {
+           "id": "940482404766",
+           "name": "Test_Account_2",
+           "environment": "dev"
+       }
+   ]
+}
